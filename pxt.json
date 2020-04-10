@@ -1,18 +1,19 @@
 {
     "name": "pxt-infrared-remote-controller",
     "version": "0.0.0",
-    "description": "",
+    "description": "This block controls the touch light (for 4 colors) of SALKING, and is a block to specify ON / OFF and color.",
+    "icon": "http://www.kodai.uec.ac.jp/blocks_img/UR/sample.png",
     "dependencies": {
         "core": "*",
         "radio": "*"
     },
     "files": [
         "README.md",
-        "main.ts"
+        "irc.ts"
     ],
     "testFiles": [
         "test.ts"
     ],
     "public": false,
-    "additionalFilePaths": []
+    "preferredEditor": "tsprj"
 }
